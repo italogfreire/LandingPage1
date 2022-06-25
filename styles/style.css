@@ -2,7 +2,7 @@ body{
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: poppinsregular;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -12,10 +12,12 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .h1one{
     color: #4cff03;
+    
 }
 
 .h1two{
@@ -32,9 +34,29 @@ li{
     margin: 20px;
 }
 
-h1{
+a{
+    color: white;
+}
 
+a:hover{
+    color: #4cff03;
+    transition: 0.3s all;
+}
+
+#conta-btn{
+    border: 2px solid #4cff03;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#conta-btn:hover{
+    background-color: #00bfff;
+    color: black;
+}
+
+h1{
     font-weight: 200;
+    
 }
 
 main{
@@ -45,7 +67,7 @@ main{
 
 h2{
     font-size: 56px;
-    line-height: 10px;
+    line-height: 15px;
     font-family: poppinsmedium;
 }
 
@@ -65,5 +87,38 @@ p{
 
 img{
     margin-left: 80px;
-    width: 500px;
+    width: 550px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+form [type="submit"]{
+    height: 50px ;
+    width: 50%;
+    background-color: #00bfff;
+    color: black;
+    
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: #4cff03;
+}
+
+input{
+    margin-top: 20px;
+    height: 15px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
