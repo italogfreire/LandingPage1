@@ -97,10 +97,11 @@ form{
 }
 
 form [type="submit"]{
-    height: 50px ;
-    width: 50%;
+    height: 45px ;
+    width: 65%;
     background-color: #00bfff;
     color: black;
+    align-self: center;
     
 }
 
